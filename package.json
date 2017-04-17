@@ -1,0 +1,28 @@
+{
+  "name": "lazy-examples",
+  "version": "1.0.0",
+  "description": "Lazy.ai chatbot as a service examples without no fee..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cagataycali/lazy-examples.git"
+  },
+  "keywords": [
+    "lazy",
+    "lazyai",
+    "chatbots",
+    "ai"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagataycali/lazy-examples/issues"
+  },
+  "homepage": "https://github.com/cagataycali/lazy-examples#readme",
+  "dependencies": {
+    "lazy.ai": "^2.2.1"
+  }
+}
