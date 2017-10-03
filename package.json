@@ -4,7 +4,9 @@
   "description": "Lazy.ai chatbot as a service examples without no fee..",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/cagataycali/lazy-examples#readme",
   "dependencies": {
-    "lazy.ai": "^2.2.1"
-  }
+    "lazy.ai": "^2.2.1",
+    "snyk": "^1.42.3"
+  },
+  "snyk": true
 }
