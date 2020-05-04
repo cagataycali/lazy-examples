@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/cagataycali/lazy-examples#readme",
   "dependencies": {
     "lazy.ai": "^2.2.1",
-    "snyk": "^1.42.3"
+    "snyk": "^1.317.0"
   },
   "snyk": true
 }
